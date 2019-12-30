@@ -1,0 +1,22 @@
+{
+    "name": "icy-sunset",
+    "displayName": "Icy-Sunset",
+    "publisher": "rmarinbe",
+    "description": "Inspired on Dark+ and Sapphire themes but changing some colors while improving contrast. Colors similar to a winter in alaska during a sunset.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Icy-Sunset",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Icy-Sunset-color-theme.json"
+            }
+        ]
+    }
+}
