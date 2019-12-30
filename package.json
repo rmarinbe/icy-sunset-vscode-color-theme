@@ -1,22 +1,44 @@
 {
-    "name": "icy-sunset",
-    "displayName": "Icy-Sunset",
-    "publisher": "rmarinbe",
-    "description": "Inspired on Dark+ and Sapphire themes but changing some colors while improving contrast. Colors similar to a winter in alaska during a sunset.",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.41.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Icy-Sunset",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Icy-Sunset-color-theme.json"
-            }
-        ]
-    }
+	"name": "icy-sunset",
+	"displayName": "Icy-Sunset",
+	"publisher": "rmarinbe",
+	"description": "Inspired on Dark+ and Sapphire themes but changing some colors while improving contrast. Colors similar to a winter in alaska during a sunset.",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Icy-Sunset",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Icy-Sunset-color-theme.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rmarinbe/icy-sunset-vscode-color-theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/rmarinbe/icy-sunset-vscode-color-theme/issues"
+	},
+	"homepage": "https://github.com/rmarinbe/icy-sunset-vscode-color-theme/blob/master/README.md",
+	"keywords": [
+		"Vscode",
+		"Theme",
+		"IcySunset",
+		"Dark"
+	],
+	"author": "Richard Marin <richardmarin@gmail.com>",
+	"license": "MIT",
+	"__metadata": {
+		"id": "bc0d8760-babd-48a7-a58b-e3b0bf217448",
+		"publisherId": "46c066f7-35c8-4ea9-a433-2d71ec4500e8",
+		"publisherDisplayName": "rmarinbe"
+	}
 }
